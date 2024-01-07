@@ -19,7 +19,7 @@ function displayNews(articles) {
             <img src="${article.urlToImage}" width="250" alt="ニューストプ画">
             <h2><a href="${article.url}" target="_blank" class="news-link">${article.title}</a></h2>
             <p>${article.description}</p>
-        </div>
+        </div>s
     `).join('');
 }
 getNews();
